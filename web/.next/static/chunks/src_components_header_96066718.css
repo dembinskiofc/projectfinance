@@ -1,0 +1,13 @@
+/* [project]/src/components/header.css [app-client] (css) */
+.logo-button:hover {
+  background-color: #50c878;
+  border-radius: 8px;
+  padding: .3rem;
+}
+
+.logo-button:hover .logo-image {
+  filter: brightness(0) saturate() invert(49%) sepia(24%) saturate(517%) hue-rotate(84deg) brightness(92%) contrast(87%);
+}
+
+
+/*# sourceMappingURL=src_components_header_96066718.css.map*/
