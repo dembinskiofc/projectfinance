@@ -1,0 +1,35 @@
+.categoria {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c1c1e;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.icone {
+  margin-right: 10px;
+}
+
+.nome {
+  flex: 1;
+}
+
+.quantidade {
+  width: 30px;
+  text-align: center;
+}
+
+.valor {
+  color: red;
+  width: 100px;
+  text-align: right;
+}

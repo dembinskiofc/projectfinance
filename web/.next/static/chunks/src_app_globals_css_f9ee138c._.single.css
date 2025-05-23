@@ -98,4 +98,8 @@ body {
   background-color: #1f1d1dc9;
 }
 
+table {
+  border-collapse: separate;
+}
+
 /*# sourceMappingURL=src_app_globals_css_f9ee138c._.single.css.map*/

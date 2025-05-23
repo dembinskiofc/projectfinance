@@ -438,6 +438,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 function TransactionTable() {
+    const cellStyle = {
+        textAlign: "start",
+        fontWeight: "normal",
+        padding: "0.5rem"
+    };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         __turbopack_context__.r("[project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript, async loader)")(__turbopack_context__.i).then((mod)=>console.log(mod));
     });
@@ -454,10 +459,10 @@ function TransactionTable() {
                 style: {
                     color: "white"
                 },
-                children: "Transactions"
+                children: "Transações"
             }, void 0, false, {
                 fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                lineNumber: 23,
+                lineNumber: 30,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -472,7 +477,8 @@ function TransactionTable() {
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
                     style: {
-                        borderCollapse: "collapse"
+                        borderCollapse: "collapse",
+                        width: "100%"
                     },
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
@@ -480,7 +486,7 @@ function TransactionTable() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {}, void 0, false, {
                                         fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                        lineNumber: 38,
+                                        lineNumber: 50,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -492,7 +498,7 @@ function TransactionTable() {
                                         children: "Descrição"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 51,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -504,7 +510,7 @@ function TransactionTable() {
                                         children: "Tipo"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                        lineNumber: 40,
+                                        lineNumber: 52,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -516,7 +522,7 @@ function TransactionTable() {
                                         children: "Valor"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 53,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -528,7 +534,7 @@ function TransactionTable() {
                                         children: "Banco"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                        lineNumber: 42,
+                                        lineNumber: 54,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -540,18 +546,18 @@ function TransactionTable() {
                                         children: "Data"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 55,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                lineNumber: 37,
+                                lineNumber: 49,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                            lineNumber: 36,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -560,111 +566,89 @@ function TransactionTable() {
                                         backgroundColor: "black",
                                         borderRadius: "8px",
                                         boxShadow: "0 2px 4px rgb(126, 126, 126)",
-                                        padding: "0.5rem",
                                         color: "white"
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                            style: {
-                                                textAlign: "start",
-                                                fontWeight: "normal",
-                                                padding: "0.5rem"
-                                            },
+                                            style: cellStyle,
                                             children: transaction.category.icon in __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$lucide$2d$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ ? /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$lucide$2d$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__[transaction.category.icon]) : null
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                            lineNumber: 56,
-                                            columnNumber: 19
+                                            lineNumber: 69,
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                            style: {
-                                                textAlign: "start",
-                                                fontWeight: "normal",
-                                                padding: "0.5rem"
-                                            },
+                                            style: cellStyle,
                                             children: transaction.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                            lineNumber: 74,
-                                            columnNumber: 19
+                                            lineNumber: 76,
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                            style: {
-                                                textAlign: "start",
-                                                fontWeight: "normal",
-                                                padding: "0.5rem"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                style: {
-                                                    textAlign: "start",
-                                                    fontWeight: "normal",
-                                                    padding: "0.5rem",
-                                                    color: transaction.type === "income" ? "#50C878" : "#C0392B"
-                                                },
-                                                children: transaction.amount.toLocaleString("pt-BR", {
-                                                    style: "currency",
-                                                    currency: "BRL"
-                                                })
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                                lineNumber: 88,
-                                                columnNumber: 21
-                                            }, this)
+                                            style: cellStyle,
+                                            children: transaction.type === "income" ? "Entrada" : "Saída"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                            lineNumber: 82,
-                                            columnNumber: 19
+                                            lineNumber: 77,
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
                                             style: {
-                                                textAlign: "start",
-                                                fontWeight: "normal",
-                                                padding: "0.5rem"
+                                                ...cellStyle,
+                                                color: transaction.type === "income" ? "#50C878" : "#C0392B"
                                             },
+                                            children: transaction.amount.toLocaleString("pt-BR", {
+                                                style: "currency",
+                                                currency: "BRL"
+                                            })
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/transactions/transactions-table.tsx",
+                                            lineNumber: 80,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                            style: cellStyle,
                                             children: transaction.bank
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                            lineNumber: 103,
-                                            columnNumber: 19
+                                            lineNumber: 91,
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                            style: {
-                                                textAlign: "start",
-                                                fontWeight: "normal",
-                                                padding: "0.5rem"
-                                            },
+                                            style: cellStyle,
                                             children: new Date(transaction.date).toLocaleString("pt-BR")
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                            lineNumber: 111,
-                                            columnNumber: 19
+                                            lineNumber: 92,
+                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, transaction.id, true, {
                                     fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                                    lineNumber: 49,
-                                    columnNumber: 17
+                                    lineNumber: 60,
+                                    columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                            lineNumber: 46,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                    lineNumber: 33,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/transactions/transactions-table.tsx",
-                lineNumber: 24,
+                lineNumber: 31,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/transactions/transactions-table.tsx",
-        lineNumber: 14,
+        lineNumber: 21,
         columnNumber: 5
     }, this);
 }

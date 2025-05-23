@@ -253,5 +253,9 @@ body {
   background-color: #1f1d1dc9;
 }
 
+table {
+  border-collapse: separate;
+}
+
 
 /*# sourceMappingURL=%5Broot-of-the-server%5D__fa22f1a5._.css.map*/

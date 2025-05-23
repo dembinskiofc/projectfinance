@@ -15,7 +15,7 @@ export function Header() {
     >
       <button
         className="logo-button"
-        onClick={() => alert("Logo clicado!")}
+        //onClick={() => alert("Logo clicado!")}
         style={{
           background: "transparent",
           border: "none",

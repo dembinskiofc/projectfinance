@@ -101,3 +101,6 @@ body {
            
 }
 
+ table {
+  border-collapse: separate;
+}
